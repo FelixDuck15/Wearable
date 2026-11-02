@@ -5196,7 +5196,7 @@
 	(footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
 		(layer "F.Cu")
 		(uuid "58a4e37c-f9a2-4ae7-82c3-3439d073781f")
-		(at 190.73 89.25)
+		(at 185.25 89.25)
 		(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf")
 		(tags "tag connect programming header pogo pins")
 		(property "Reference" "J3"
@@ -5442,7 +5442,7 @@
 			)
 			(polygon
 				(pts
-					(xy 192 88.615) (xy 189.46 88.615) (xy 189.46 89.885) (xy 192 89.885)
+					(xy 186.52 88.615) (xy 183.98 88.615) (xy 183.98 89.885) (xy 186.52 89.885)
 				)
 			)
 		)
@@ -9331,11 +9331,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "70b311c3-be40-4a1a-851f-77075a914f62")
-		(at 192.5 73.5 -90)
+		(at 187 73.5 -90)
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J1"
-			(at -1.25 4.75 180)
+			(at -1.25 4.75 0)
 			(layer "F.SilkS")
 			(uuid "fbd1ec4c-73c5-45cc-857a-702df2d29a23")
 			(effects
@@ -12850,6 +12850,28 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "6afe8012-23d8-40f7-bd20-dba3aa62d661")
+	)
+	(gr_circle
+		(center 191.5 74.5)
+		(end 189 74.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ec5de237-6fa1-407d-8c9e-863b9666d35e")
+	)
+	(gr_circle
+		(center 191.5 88.5)
+		(end 189 88.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "97084d3f-fb20-4c72-828d-a02e2f1617c2")
 	)
 	(gr_line
 		(start 194.5 81.5)

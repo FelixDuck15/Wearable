@@ -4,5 +4,6 @@ Montre intelligente qui est une melange d'une Whoops et d'une apple watch.
 * Avoir une affiche de l'heure
 
 ## Dossier dans le projet
-* pieces (pièces utiliser dans le projet)
-* SmartWatch (projet Kicad)
+* pieces (the parts use for the project)
+* SmartWatch (Kicad V10 project)
+  * Tu dois avoir Kicad V10 pour ouvrir ce projet
